@@ -3,6 +3,7 @@ Basic template for trying remote debugging with FlowStorm(https://github.com/jpm
 ## Instructions
 
 - clone this repo, and cd into it
+- make usre the procet.clj contains the latest versions of `com.github.jpmonettas/clojure` and `com.github.jpmonettas/flow-storm-inst` 
 - `make build ` will build the docker image (run only once)
 - `make run` will run the container, exposing nRepl port 31401 and sharing your ~/.m2 repo with it
 - `make connect-repl` will connect a repl to the exposed 31401 server (requires lein on your box)
