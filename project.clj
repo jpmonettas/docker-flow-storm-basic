@@ -1,6 +1,6 @@
 (defproject my.project "1.0.0"
-  :profiles {:dev {:dependencies [[com.github.jpmonettas/clojure "1.11.1-2"]
-                                  [com.github.jpmonettas/flow-storm-inst "3.5.0"] ]
+  :profiles {:dev {:dependencies [[com.github.flow-storm/clojure "1.11.1-11"]
+                                  [com.github.flow-storm/flow-storm-dbg "RELEASE"] ]
                    :exclusions [org.clojure/clojure]
                    :jvm-opts ["-Dflowstorm.startRecording=true"
                               "-Dclojure.storm.instrumentEnable=true"
