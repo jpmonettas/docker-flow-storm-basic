@@ -1,4 +1,4 @@
-FROM clojure:temurin-11-lein-alpine
+FROM clojure:temurin-17-lein-alpine
 
 VOLUME /root/.m2
 
