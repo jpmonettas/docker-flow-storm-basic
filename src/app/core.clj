@@ -1,4 +1,4 @@
-(ns foo.core)
+(ns app.core)
 
 (defn factorial [n]
   (if (zero? n)

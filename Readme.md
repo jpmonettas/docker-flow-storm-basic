@@ -12,7 +12,7 @@ with lein although the same can be done with deps.edn.
 
 That last command should bring the debugger UI connected to your shadow nrepl server and browser application process.
 
-Check that the bottom right indicators are (REPL and RUNTIME) are turned on (green).
+Check that the bottom right indicators are (REPL and RUNTIME) are turned on (green**.
 
 If everything is fine, great! you are successfully running it. 
 
